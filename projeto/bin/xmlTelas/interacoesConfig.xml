@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<tela>
+	<help><![CDATA[<b>Objetivo do Jogo:</b><br />Levar o avatar até o ponto de chegada. Para isso, é preciso responder a uma série de perguntas cujas respostas corretas traçam o caminho do avatar pelo tabuleiro.<br /><br /><b>Como Jogar:</b><br />Cada bloco do tabuleiro representa uma pergunta no jogo. Os blocos sinalizados representam as possibilidades de caminho do jogador. Para mover o avatar pelo tabuleiro, é preciso clicar nos blocos e responder as perguntas. Em caso de acerto, o avatar é movido até o campo clicado. Em caso de erro, o campo fica bloqueado e o avatar não poderá mais passar por ele. Caso seja cercado por perguntas com respostas incorretas, o jogador perde o jogo. É vitorioso o jogador que alcança, com êxito, o campo de chegada.<br /><br /><b>Atenção!</b><br />No campo de chegada, no canto inferior direito do tabuleiro, há três últimas perguntas a serem respondidas.<br/><br/><b>Boa sorte!</b>]]></help>
+	
+	<quizes>
+		<tempoResposta>30</tempoResposta>
+		<pctAprovacao>70</pctAprovacao>
+		<randomAlternativas>sim</randomAlternativas>
+		
+		<dicaCount>3</dicaCount>
+		<pulaCount>1</pulaCount>
+		<removeCount>3</removeCount>
+	  
+		<quiz id="Q1">
+			<enunciado>
+			  <![CDATA[O cliente menciona que irá buscar órgãos especiais (PROCON, Anatel, Jurídico, Diretoria, Vice- Presidência, Presidência). O que você faz?]]>
+			</enunciado>
+			
+			<alternativa id="A1">
+				<![CDATA[Tento reverter a situação e trato o caso.]]>
+			</alternativa>
+			
+			<alternativa id="A2">
+				<![CDATA[Transfiro a ligação imediatamente para ouvidoria.]]>
+			</alternativa>
+			
+			<alternativa id="A3">
+				<![CDATA[Transfiro a ligação imediatamente para a supervisão.]]>
+			</alternativa>
+			
+			<alternativa id="A4">
+				<![CDATA[Abro um processo imediatamente sem argumentar com o cliente.]]>
+			</alternativa>
+			
+			<gabarito>A1</gabarito>
+			<feedPos><![CDATA[Resposta correta. Parabéns!]]></feedPos>
+			<feedNeg><![CDATA[Resposta incorreta. Você pode melhorar seu desempenho. <br><br> A resposta correta seria: <br><br> Tento reverter a situação e trato o caso.]]></feedNeg>
+		</quiz>
+		
+		<quiz id="Q2">
+			<enunciado>
+			  <![CDATA[No atendimento aos clientes Vivo Empresa existem restrições de atendimento para clientes usuários ou gestor de contas. Assinale abaixo quais serviços podem ser realizados pelo Usuário da linha:]]>
+			</enunciado>
+			
+			<alternativa id="A1">
+				<![CDATA[Ativação / Desativação de caixa postal; Atualização de IMEI; Prorrogação de vencimento.]]>
+			</alternativa>
+			
+			<alternativa id="A2">
+				<![CDATA[Atualização de IMEI; Desativação de pacote; Aquisição de linha.]]>
+			</alternativa>
+			
+			<alternativa id="A3">
+				<![CDATA[Cancelamento de linha; Prorrogação de vencimento; Suporte especializado.]]>
+			</alternativa>
+			
+			<alternativa id="A4">
+				<![CDATA[Prorrogação de vencimento; Cancelamento de linha; Prorrogação de vencimento.]]>
+			</alternativa>
+			
+			<gabarito>A1</gabarito>
+			<feedPos><![CDATA[Resposta correta. Parabéns!]]></feedPos>
+			<feedNeg><![CDATA[Resposta incorreta. Você pode melhorar seu desempenho.<br><br> A resposta correta seria: <br><br>Ativação / Desativação de caixa postal; Atualização de IMEI; Prorrogação de vencimento.]]></feedNeg>
+		</quiz>
+		
+		
+		<quiz id="Q3">
+			<enunciado>
+			  <![CDATA[Na troca de plano Vivo Empresa haverá cobrança proporcional de valores?]]>
+			</enunciado>
+			
+			<alternativa id="A1">
+				<![CDATA[Haverá cobrança proporcional se a alteração ocorrer durante o ciclo de faturamento.]]>
+			</alternativa>
+			
+			<alternativa id="A2">
+				<![CDATA[Se a alteração ocorrer no meio do ciclo de faturamento não haverá cobrança proporcional de valores.]]>
+			</alternativa>
+			
+			<alternativa id="A3">
+				<![CDATA[Independente do período da troca de plano, não ocorrerá cobrança proporcional de valores.]]>
+			</alternativa>
+			
+			<alternativa id="A4">
+				<![CDATA[Sempre haverá cobrança integral de valores para a troca de plano.]]>
+			</alternativa>
+			
+			<gabarito>A1</gabarito>
+			<feedPos><![CDATA[Resposta correta. Parabéns!]]></feedPos>
+			<feedNeg><![CDATA[Resposta incorreta. Você pode melhorar seu desempenho. <br><br> A resposta correta seria: <br><br>Haverá cobrança proporcional se a alteração ocorrer durante o ciclo de faturamento.]]></feedNeg>
+		</quiz>
+		
+		<quiz id="Q4">
+			<enunciado>
+			  <![CDATA[É permitido realizar a troca de plano por outro que tenha menos minutos (downgrade)?]]>
+			</enunciado>
+			
+			<alternativa id="A1">
+				<![CDATA[Sim, é permitido apenas após o pagamento da primeira conta.]]>
+			</alternativa>
+			
+			<alternativa id="A2">
+				<![CDATA[Não é permitido. Nesse caso, o cliente deve permanecer com o plano atual.]]>
+			</alternativa>
+			
+			<alternativa id="A3">
+				<![CDATA[Sim, é permitido apenas após o pagamento da segunda conta. Caso exista contrato de fidelização a multa não é cobrada.]]>
+			</alternativa>
+			
+			<alternativa id="A4">
+				<![CDATA[Sim, é permitido apenas após o pagamento da primeira conta. Caso exista contrato de fidelização o valor da multa será cobrado integral.]]>
+			</alternativa>
+			
+			<gabarito>A1</gabarito>
+			<feedPos><![CDATA[Resposta correta. Parabéns!]]></feedPos>
+			<feedNeg><![CDATA[Resposta incorreta. Você pode melhorar seu desempenho.<br><br> A resposta correta seria: <br><br>Sim, é permitido apenas após o pagamento da primeira conta.]]></feedNeg>
+		</quiz>
+		
+		<quiz id="Q5">
+			<enunciado>
+			  <![CDATA[Escolha a alternativa que contém os serviços inclusos no Plano Empresa Auto Ajustável:]]>
+			</enunciado>
+			
+			<alternativa id="A1">
+				<![CDATA[Caixa Postal; Chamada em espera; Identificador de chamadas.]]>
+			</alternativa>
+			
+			<alternativa id="A2">
+				<![CDATA[Chamadas internacionais 25 minutos; Identificador de chamadas; Vivo Agenda.]]>
+			</alternativa>
+			
+			<alternativa id="A3">
+				<![CDATA[Vivo Ilimitado; Caixa Postal; Vivo Avisa.]]>
+			</alternativa>
+			
+			<alternativa id="A4">
+				<![CDATA[Identificador de chamadas; Vivo Ilimitado; Vivo Agenda.]]>
+			</alternativa>
+			
+			<gabarito>A1</gabarito>
+			<feedPos><![CDATA[Resposta correta. Parabéns!]]></feedPos>
+			<feedNeg><![CDATA[Resposta incorreta. Você pode melhorar seu desempenho.<br><br> A resposta correta seria: <br><br>Caixa Postal; Chamada em espera; Identificador de chamadas.]]></feedNeg>
+		</quiz>
+		
+		<quiz id="Q6">
+			<enunciado>
+			  <![CDATA[Complete com a alternativa correta:<br><br>O  plano Vivo Empresa Escolha proporciona ao cliente PJ uma assinatura _______por linha, _______  de acordo com a quantidade de linhas ativas na conta.]]>
+			</enunciado>
+			
+			<alternativa id="A1">
+				<![CDATA[Mensal / variável.]]>
+			</alternativa>
+			
+			<alternativa id="A2">
+				<![CDATA[Mensal / fixa.]]>
+			</alternativa>
+			
+			<alternativa id="A3">
+				<![CDATA[Quinzenal / variável.]]>
+			</alternativa>
+			
+			<alternativa id="A4">
+				<![CDATA[Quinzenal / fixa.]]>
+			</alternativa>
+			
+			<gabarito>A1</gabarito>
+			<feedPos><![CDATA[Resposta correta. Parabéns!]]></feedPos>
+			<feedNeg><![CDATA[Resposta incorreta. Você pode melhorar seu desempenho.<br><br> A resposta correta seria: <br><br>Mensal / variável.]]></feedNeg>
+		</quiz>
+		
+		<quiz id="Q7">
+			<enunciado>
+			  <![CDATA[Complete com a alternativa correta:<br><br>Adquirindo o plano Vivo Empresa Escolha o cliente precisa contratar o pacote mínimo de ____ minutos de franquia por linha.]]>
+			</enunciado>
+			
+			<alternativa id="A1">
+				<![CDATA[100]]>
+			</alternativa>
+			
+			<alternativa id="A2">
+				<![CDATA[200]]>
+			</alternativa>
+			
+			<alternativa id="A3">
+				<![CDATA[150]]>
+			</alternativa>
+			
+			<alternativa id="A4">
+				<![CDATA[50]]>
+			</alternativa>
+			
+			<gabarito>A1</gabarito>
+			<feedPos><![CDATA[Resposta correta. Parabéns!]]></feedPos>
+			<feedNeg><![CDATA[Resposta incorreta. Você pode melhorar seu desempenho.<br><br> A resposta correta seria: 100]]></feedNeg>
+		</quiz>
+		
+		<quiz id="Q8">
+			<enunciado>
+			  <![CDATA[Complete: <br><br>Com o plano Vivo Móvel Controle Empresa o cliente pode escolher a ____ responsável pelo pagamento, assim, ele receberá ____ com todas as assinaturas.]]>
+			</enunciado>
+			
+			<alternativa id="A1">
+				<![CDATA[Conta / uma fatura.]]>
+			</alternativa>
+			
+			<alternativa id="A2">
+				<![CDATA[Linha / uma fatura.]]>
+			</alternativa>
+			
+			<alternativa id="A3">
+				<![CDATA[Conta / duas faturas.]]>
+			</alternativa>
+			
+			<alternativa id="A4">
+				<![CDATA[Linha / duas faturas.]]>
+			</alternativa>
+			
+			<gabarito>A1</gabarito>
+			<feedPos><![CDATA[Resposta correta. Parabéns!]]></feedPos>
+			<feedNeg><![CDATA[Resposta incorreta. Você pode melhorar seu desempenho.<br><br> A resposta correta seria: <br><br>Conta / uma fatura.]]></feedNeg>
+		</quiz>
+		
+		
+		<quiz id="Q9">
+			<enunciado>
+			  <![CDATA[De acordo com as informações do Nosso Portal, assinale a alternativa correta sobre a definição do Vivo Corporativo Ilimitado.]]>
+			</enunciado>
+			
+			<alternativa id="A1">
+				<![CDATA[Os clientes podem adquirir os pacotes: locais + SMS / ligações locais + longa distância / ligações locais + SMS + longa distância.]]>
+			</alternativa>
+			
+			<alternativa id="A2">
+				<![CDATA[Os clientes podem adquirir os pacotes: locais + ligações LDI / ligações locais + longa distância / ligações locais + SMS + longa distância.]]>
+			</alternativa>
+			
+			<alternativa id="A3">
+				<![CDATA[Os clientes podem adquirir os pacotes: ligações LDI / ligações locais + longa distância / ligações locais + SMS + longa distância.]]>
+			</alternativa>
+			
+			<alternativa id="A4">
+				<![CDATA[Os clientes podem adquirir os pacotes: Vivo Avisa / ligações locais + longa distância / ligações locais + SMS + longa distância.]]>
+			</alternativa>
+			
+			<gabarito>A1</gabarito>
+			<feedPos><![CDATA[Resposta correta. Parabéns!]]></feedPos>
+			<feedNeg><![CDATA[Resposta incorreta. Você pode melhorar seu desempenho.<br><br> A resposta correta seria: <br><br>Os clientes podem adquirir os pacotes: locais + SMS / ligações locais + longa distância / ligações locais + SMS + longa distância.]]></feedNeg>
+		</quiz>
+		
+		<quiz id="Q10">
+			<enunciado>
+			  <![CDATA[Sobre Plano Corporativo, complete:<br><br>Direcionado aos clientes Vivo Empresa usuários do serviço_____. Este plano não contempla _____, o cliente paga o valor dos minutos utilizados.]]>
+			</enunciado>
+			
+			<alternativa id="A1">
+				<![CDATA[Vivo Direto (PTT) / franquia de minutos.]]>
+			</alternativa>
+			
+			<alternativa id="A2">
+				<![CDATA[Vivo Fixo / franquia de minutos.]]>
+			</alternativa>
+			
+			<alternativa id="A3">
+				<![CDATA[Vivo Direto (PTT) / serviços adicionais.]]>
+			</alternativa>
+			
+			<alternativa id="A4">
+				<![CDATA[Vivo Fixo / minutos ilimitados.]]>
+			</alternativa>
+			
+			<gabarito>A1</gabarito>
+			<feedPos><![CDATA[Resposta correta. Parabéns!]]></feedPos>
+			<feedNeg><![CDATA[Resposta incorreta. Você pode melhorar seu desempenho.<br><br> A resposta correta seria: <br><br>Vivo Direto (PTT) / franquia de minutos.]]></feedNeg>
+		</quiz>
+		
+		<quiz id="Q11">
+			<enunciado>
+			  <![CDATA[Ao receber uma chamada a cobrar o cliente é tarifado?]]>
+			</enunciado>
+			
+			<alternativa id="A1">
+				<![CDATA[Não, o cliente tem até 15 segundos, após o término da gravação, para desligar sem ser tarifado.]]>
+			</alternativa>
+			
+			<alternativa id="A2">
+				<![CDATA[Não, o cliente tem 20 segundos, após o término da gravação, para desligar sem ser tarifado.]]>
+			</alternativa>
+			
+			<alternativa id="A3">
+				<![CDATA[Sim, pois a ligação é contada após seis segundos do término da gravação.]]>
+			</alternativa>
+			
+			<alternativa id="A4">
+				<![CDATA[Não, pois a ligação é contada após 10 segundos do término da gravação.]]>
+			</alternativa>
+			
+			<gabarito>A3</gabarito>
+			<feedPos><![CDATA[Resposta correta. Parabéns!]]></feedPos>
+			<feedNeg><![CDATA[Resposta incorreta. Você pode melhorar seu desempenho.<br><br> A resposta correta seria: <br><br>Sim, pois a ligação é contada após seis segundos do término da gravação.]]></feedNeg>
+		</quiz>
+		
+		<quiz id="Q12">
+			<enunciado>
+			  <![CDATA[Qual é o prazo para o cliente realizar a contestação de uma conta? (Desconsidere a liberalidade em caráter de fidelização do cliente – Concessão.)]]>
+			</enunciado>
+			
+			<alternativa id="A1">
+				<![CDATA[Em até 120 dias após a data de vencimento / cobrança.]]>
+			</alternativa>
+			
+			<alternativa id="A2">
+				<![CDATA[Em até 90 dias após a data de vencimento / cobrança.]]>
+			</alternativa>
+			
+			<alternativa id="A3">
+				<![CDATA[Em até 150 dias após a data de vencimento / cobrança.]]>
+			</alternativa>
+			
+			<alternativa id="A4">
+				<![CDATA[Em até 60 dias após a data de vencimento / cobrança.]]>
+			</alternativa>
+			
+			<gabarito>A2</gabarito>
+			<feedPos><![CDATA[Resposta correta. Parabéns!]]></feedPos>
+			<feedNeg><![CDATA[Resposta incorreta. Você pode melhorar seu desempenho.<br><br> A resposta correta seria: <br><br>Em até 90 dias após a data de vencimento / cobrança.]]></feedNeg>
+		</quiz>
+		
+		<quiz id="Q13">
+			<enunciado>
+			  <![CDATA[Um cliente possui a conta online e reclama que não recebeu a fatura em seu escritório. Ele deseja também receber o detalhamento das ligações. Qual orientação deve ser passada?]]>
+			</enunciado>
+			
+			<alternativa id="A1">
+				<![CDATA[Os clientes que possuem conta online, não recebem o detalhamento de utilização, mas podem consultá-la no site da Vivo (Meu Vivo).]]>
+			</alternativa>
+			
+			<alternativa id="A2">
+				<![CDATA[Com a ativação do serviço conta online não é possível ter acesso ao detalhamento das ligações.]]>
+			</alternativa>
+			
+			<alternativa id="A3">
+				<![CDATA[Todos estes clientes PJs devem entrar em contato com a central para solicitar o envio da fatura com o detalhamento das ligações.]]>
+			</alternativa>
+			
+			<alternativa id="A4">
+				<![CDATA[O gestor de contas precisa realizar a solicitação de detalhamento da fatura no site Vivo.]]>
+			</alternativa>
+			
+			<gabarito>A1</gabarito>
+			<feedPos><![CDATA[Resposta correta. Parabéns!]]></feedPos>
+			<feedNeg><![CDATA[Resposta incorreta. Você pode melhorar seu desempenho.<br><br> A resposta correta seria: <br><br>Os clientes que possuem conta online, não recebem o detalhamento de utilização, mas podem consultá-la no site da Vivo (Meu Vivo).]]></feedNeg>
+		</quiz>		
+		
+		<feedPositivo><![CDATA[Você cruzou a linha de chegada com sucesso. Parabéns!]]></feedPositivo>
+		<feedNegativo><![CDATA[Você não cruzou a linha de chegada. Revise os conteúdos para uma melhor assimilação. Bons estudos.]]></feedNegativo>
+	
+	</quizes>
+	
+	
+</tela>

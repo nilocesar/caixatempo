@@ -1,0 +1,13 @@
+﻿{
+    "id": "http://tincanapi.com/JsTetris_TCAPI",
+    "scorm": true,
+    "comments": false,
+    "controles": true,
+    "moldura": false,
+    "autoComplete" : true,
+    "maxScore": 100,
+    "minScore": 0,
+	"contextual":"Application Contextual",
+	"hasLRS":false,
+    "_classReference": "com.affero.model.application.ConfigEngineVO"
+}

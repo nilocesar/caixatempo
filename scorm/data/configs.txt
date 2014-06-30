@@ -1,0 +1,13 @@
+﻿{
+    "telas": [
+		{
+            "id": "game",
+            "telaURL": "telas/game.swf",
+            "xmlTela": "xmlTelas/interacoesConfig.xml",
+			"person1": -1,
+			"person2": -1,
+            "_classReference": "com.affero.model.application.TelasVO"
+        }
+    ],
+    "_classReference": "com.affero.model.application.ConfigVO"
+}

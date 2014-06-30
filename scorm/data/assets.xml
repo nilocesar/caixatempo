@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<LoaderMax name="assets" load="true">
+		<DataLoader url="data/configs.txt" name="configs" />
+		<DataLoader url="data/engineConfig.txt" name="configsEngine" />
+		<SWFLoader  url="data/assets/componentes.swf" name="componentes" autoPlay="false"/>		
+    </LoaderMax>
+</data>

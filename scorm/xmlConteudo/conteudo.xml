@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<conteudo>
+		<questoes>
+			<empate>
+				<![CDATA[Lembre-se:  “pensar fora da caixa” é uma das melhores formas para encontrar soluções que parecem inalcançáveis!]]>
+			</empate>
+			<pers1Win>
+				<![CDATA[Lembre-se:  “pensar fora da caixa” é uma das melhores formas para encontrar soluções que parecem inalcançáveis!]]>
+			</pers1Win>
+			<pers2Win>
+				<![CDATA[Lembre-se:  “pensar fora da caixa” é uma das melhores formas para encontrar soluções que parecem inalcançáveis!]]>
+			</pers2Win>
+//_______________________________________________________________________________________					
+			<questao>
+				<tempoResposta>2</tempoResposta>
+				<alternativa id="A1">
+					<![CDATA[Sempre melhor!<br><br>1 – Observe a casa desenhada no quadro.<br>2 – Dê uma nota para essa casa.<br>3 – Redesenhem essa casa de uma forma “ideal”.<br>4 – Atribuam uma nota à casa do grupo adversário.<br/>]]>
+				</alternativa>
+				
+				<feed id="F1">
+					<![CDATA[Desafio 1<br>Clique aqui para visualizar<br/>]]>
+				</feed>
+				
+				<header id="H1">
+					<![CDATA[Desafio 1]]>
+				</header>
+			</questao>
+//_______________________________________________________________________________________						
+			<questao>
+				<tempoResposta>3</tempoResposta>
+				<alternativa id="A2">
+					<![CDATA[Sobrevivendo no deserto<br><br>Confeccionem um reservatório para guardar água, pois vocês estão no meio do deserto e a chuva chegará daqui a 5 minutos.<br><br>Obs: sigam as orientações do facilitador.]]>
+				</alternativa>
+				
+				<feed id="F2">
+					<![CDATA[Desafio 2<br>Clique aqui para visualizar<br/>]]>
+				</feed>
+				
+				<header id="H2">
+					<![CDATA[Desafio 2]]>
+				</header>
+			</questao>
+//_______________________________________________________________________________________						
+			<questao>
+				<tempoResposta>3</tempoResposta>
+				<alternativa id="A3">
+					<![CDATA[O segredo do cliente<br><br>1 – Elejam um líder.<br>2 – Líder, seu papel é investigar os “segredos dos clientes”.]]>
+				</alternativa>
+				
+				<feed id="F3">
+					<![CDATA[Desafio 3<br>Clique aqui para visualizar<br/>]]>
+				</feed>
+				
+				<header id="H3">
+					<![CDATA[Desafio 3]]>
+				</header>
+			</questao>
+//_______________________________________________________________________________________			
+			<questao>
+				<tempoResposta>5</tempoResposta>
+				<alternativa id="A4">
+					<![CDATA[Relembrando os conteúdos<br><br>1 – Quais os três Indicadores de Negócio utilizados pela Vivo?<br>2 – Agora, representem os funcionamentos de cada indicador.]]>
+				</alternativa>
+				
+				<feed id="F4">
+					<![CDATA[Desafio FINAL<br>Clique aqui para visualizar<br/>]]>
+				</feed>
+				
+				<header id="H4">
+					<![CDATA[Desafio FINAL]]>
+				</header>
+			</questao>
+//_______________________________________________________________________________________						
+			
+		</questoes>	
+</conteudo>

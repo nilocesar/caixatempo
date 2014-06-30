@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	
+	<head>
+		<title>Vivo - Indicadores de Negócios</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<style>
+			body {
+			  padding:0;
+			  margin:0;
+			  width:100%;
+			  height:100%;
+			  overflow:hidden;
+			}
+			
+			html {
+			  height: 100%;
+			  overflow: hidden;
+			}
+			 
+			#flashcontent {
+			  height: 100%;
+			}
+
+		</style>
+
+        <script src="js/swfobject.js"></script>
+		<!-- Base64 -->
+		<script type="text/javascript" src="js/base64.js">	</script>	
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="../config.js"></script>
+		
+		<!-- SCORM API -->
+		<script src="js/SCORM_API.js"></script>
+      
+		<!-- TIN CAN API -->		
+		<script type="text/javascript" src="js/tincanjs/TinCan.js"></script>
+		<script type="text/javascript" src="js/tincanjs/Utils.js"></script>
+		<script type="text/javascript" src="js/tincanjs/LRS.js"></script>
+		<script type="text/javascript" src="js/tincanjs/AgentAccount.js"></script>
+		<script type="text/javascript" src="js/tincanjs/Agent.js"></script>
+		<script type="text/javascript" src="js/tincanjs/Group.js"></script>
+		<script type="text/javascript" src="js/tincanjs/Verb.js"></script>
+		<script type="text/javascript" src="js/tincanjs/Result.js"></script>
+		<script type="text/javascript" src="js/tincanjs/Score.js"></script>
+		<script type="text/javascript" src="js/tincanjs/Context.js"></script>
+		<script type="text/javascript" src="js/tincanjs/ContextActivities.js"></script>
+		<script type="text/javascript" src="js/tincanjs/Activity.js"></script>
+		<script type="text/javascript" src="js/tincanjs/InteractionComponent.js"></script>
+		<script type="text/javascript" src="js/tincanjs/ActivityDefinition.js"></script>
+		<script type="text/javascript" src="js/tincanjs/ActivityProfile.js"></script>
+		<script type="text/javascript" src="js/tincanjs/StatementRef.js"></script>
+		<script type="text/javascript" src="js/tincanjs/SubStatement.js"></script>
+		<script type="text/javascript" src="js/tincanjs/Statement.js"></script>
+		<script type="text/javascript" src="js/tincanjs/StatementsResult.js"></script>
+		<script type="text/javascript" src="js/tincanjs/State.js"></script>
+		
+		
+		<!-- Controles Scorm -->
+		<script type="text/javascript" src="js/ScormMethods.js"></script>
+		
+		<!-- Controles TIN CAN -->
+		<script type="text/javascript" src="js/TimMethods.js"></script>
+		
+		<script>		
+		    //Embed the SWF
+			var flashvars = {};
+              
+			var params = {
+				menu: "false",
+				scale: "noScale",
+				allowFullscreen: "true",
+				allowScriptAccess: "always",
+				bgcolor: "",
+				wmode: "transparent", // can cause issues with FP settings & webcam
+				name:"allowScriptAccess"		
+			};
+		 
+			swfobject.embedSWF("App.swf", "flashcontent", "100%", "100%", "10.0.0", "", flashvars, params);
+		</script>
+
+	</head>
+
+	<body>
+		<div id="flashcontent">
+			<a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" title="Get Adobe Flash player" /></a><br />
+			Baixe o <a href="http://www.adobe.com/go/getflashplayer">Flash Player 10</a> para visualizar o conteúdo desta página.
+		</div>
+	</body>
+	
+</html>

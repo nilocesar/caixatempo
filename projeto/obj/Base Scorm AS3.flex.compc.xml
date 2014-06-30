@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<flex-config xmlns="http://www.adobe.com/2006/flex-config">
+  <output>D:\BS_VSS\Vivo\Base Scorm AS3\.\bin\BaseAS3.swc</output>
+  <use-network>true</use-network>
+  <target-player>10.1</target-player>
+  <warnings>true</warnings>
+  <benchmark>false</benchmark>
+  <compiler>
+    <accessible>false</accessible>
+    <allow-source-path-overlap>false</allow-source-path-overlap>
+    <optimize>true</optimize>
+    <strict>true</strict>
+    <es>false</es>
+    <show-actionscript-warnings>true</show-actionscript-warnings>
+    <show-binding-warnings>true</show-binding-warnings>
+    <show-unused-type-selector-warnings>true</show-unused-type-selector-warnings>
+    <use-resource-bundle-metadata>true</use-resource-bundle-metadata>
+    <verbose-stacktraces>false</verbose-stacktraces>
+    <source-path>
+      <path-element>d:\bs_vss\vivo\base scorm as3\src</path-element>
+    </source-path>
+    <library-path>
+      <path-element>d:\bs_vss\vivo\base scorm as3\libs\reintroducing.swc</path-element>
+      <path-element>d:\bs_vss\vivo\base scorm as3\libs\greensock.swc</path-element>
+      <path-element>d:\bs_vss\vivo\base scorm as3\libs\mdm.swc</path-element>
+      <path-element>d:\bs_vss\vivo\base scorm as3\libs\monsterdebugger.swc</path-element>
+      <path-element>d:\bs_vss\vivo\base scorm as3\libs\as3corelib.swc</path-element>
+      <path-element>d:\bs_vss\vivo\base scorm as3\libs\defaultloader.swc</path-element>
+      <path-element>d:\bs_vss\vivo\base scorm as3\libs\textlib.swc</path-element>
+      <path-element>d:\bs_vss\vivo\base scorm as3\libs\json.swc</path-element>
+    </library-path>
+  </compiler>
+  <include-classes>
+    <class>AppClient</class>
+    <class>Main</class>
+    <class>com.affero.alert.AlertBox</class>
+    <class>com.affero.alert.ConteudoAlertBox</class>
+    <class>com.affero.base.utils.AssetsLoader</class>
+    <class>com.affero.base.utils.BaseButton</class>
+    <class>com.affero.base.utils.BaseScroll</class>
+    <class>com.affero.base.utils.LoadingProgress</class>
+    <class>com.affero.base.utils.mc</class>
+    <class>com.affero.base.utils.MovieClipExtended</class>
+    <class>com.affero.base.utils.MovieClipResize</class>
+    <class>com.affero.base.utils.Paths</class>
+    <class>com.affero.base.utils.SoundController</class>
+    <class>com.affero.base.utils.TextFieldExtended</class>
+    <class>com.affero.base.utils.Tooltip</class>
+    <class>com.affero.base.utils.cronometro.Tempo</class>
+    <class>com.affero.base.utils.cronometro.events.PercentEvent</class>
+    <class>com.affero.base.utils.json.Converter</class>
+    <class>com.affero.base.utils.listenerParans.ListenerParans</class>
+    <class>com.affero.controller.AppController</class>
+    <class>com.affero.controller.HudController</class>
+    <class>com.affero.controller.InfosLayerController</class>
+    <class>com.affero.controller.MapController</class>
+    <class>com.affero.controller.MolduraController</class>
+    <class>com.affero.controller.PopUpController</class>
+    <class>com.affero.controller.StateController</class>
+    <class>com.affero.model.application.AppObject</class>
+    <class>com.affero.model.application.ConfigEngineVO</class>
+    <class>com.affero.model.application.ConfigVO</class>
+    <class>com.affero.model.application.TelasVO</class>
+    <class>com.affero.scorm.ScormControl</class>
+    <class>com.pipwerks.SCORM</class>
+    <class>com.view.LoadingTela</class>
+    <class>com.view.Moldura</class>
+    <class>com.view.MovieClipInteraction</class>
+  </include-classes>
+</flex-config>
